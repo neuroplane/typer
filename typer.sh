@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#This string is for pull test
 ############################
 ##### DIRECTORY CHECK  #####
 ############################
