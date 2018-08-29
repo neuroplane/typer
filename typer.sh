@@ -1,5 +1,4 @@
 #!/bin/bash
-#This string is for pull test
 ############################
 ##### DIRECTORY CHECK  #####
 ############################
@@ -11,11 +10,11 @@ if [ ! -d ~/typer ]; then
 	sleep 4
 fi
 if [ ! -f ~/typer/wc.t ]; then 
-	sudo echo "1" > ~/typer/wc.t
+	sudo echo "10" > ~/typer/wc.t
 	echo "CREATED WORDS COUNT FILE"
 	sleep 4
 fi
-if [ ! -d /media/pi/HOME128 ]; then 
+if [ ! -d /media/pi/RASPBERRYPI ]; then 
 	echo -e "\033[41m\033[30mNO USB DRIVE MOUNTED!\nMOUNT DRIVE AND RELAUNCH SCRIPT!\033[0m"
 	sleep 4
 	exit
